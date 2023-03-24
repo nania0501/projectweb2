@@ -34,19 +34,19 @@ use App\Http\Controllers\ManagementUserController;
 // });
 // Route::Redirect('/redirect_route1','/redirect_route2');
 
-//Penjaluran ini menunjukkan bahwa jika variabel id bernilai kosong maka laravel secara otomatis akan mengisi dengan nilai Ameliya
-// Route::get('users/{id}', function ($id ="ameliya"){
+//Penjaluran ini menunjukkan bahwa jika variabel id bernilai kosong maka laravel secara otomatis akan mengisi dengan nilai Nania
+// Route::get('users/{id}', function ($id ="nania"){
 //     return "Hello " . $id;
 // });
 
 //GET digunakan untuk menampilkan resource
 //Dengan menggunakan metode where pada penjaluran kita dapat membatasi nilai dari parameter pada url yang dapat diinputkan.
-// Route::get('/user/{name}', function ($name = "ameliya") {
+// Route::get('/user/{name}', function ($name = "nania") {
 //     return "Hello " . $name;
 // })->where('name', '[A-Za-z]+');
 
 
-// Route::get('/user/{name}', function ($name = "ameliya") {
+// Route::get('/user/{name}', function ($name = "nania") {
 //     return "Hello " . $name;
 // })->where('name', '.*');
 
